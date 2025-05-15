@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: bourbon_bowl_github
+    database: bourbon-bowl
+    schema: github
+
+    tables:
+      - name: commit

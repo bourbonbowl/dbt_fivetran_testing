@@ -1,9 +1,10 @@
-WITH commit AS (
+WITH source AS (
     SELECT * FROM {{ ref('commit') }}
 ),
 
 transform AS (
     SELECT author_date, COUNT(DISTINCT sha) AS commit_count
+    FROM source
     GROUP BY ALL
 ),
 

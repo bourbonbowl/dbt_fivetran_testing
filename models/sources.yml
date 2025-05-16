@@ -7,3 +7,9 @@ sources:
 
     tables:
       - name: commit
+  
+  - name: bourbon_bowl_test
+    database: bourbon_bowl
+    schema: test
+    tables:
+      - name: facts

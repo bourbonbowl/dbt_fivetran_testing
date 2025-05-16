@@ -4,6 +4,7 @@ WITH commit AS (
 
 transform AS (
     SELECT author_date, COUNT(DISTINCT sha) AS commit_count
+    FROM commit
     GROUP BY ALL
 ),
 

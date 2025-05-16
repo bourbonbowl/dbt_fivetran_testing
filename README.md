@@ -35,3 +35,14 @@ erDiagram
     users 1 to 0+ orders : places
     orders 1 to 1+ inventory : has
 ```
+
+# Project Overview
+```mermaid
+gantt
+    dateformat YYYY-MM-DD
+    tickInterval 2month
+        preparation           : 2025-01-01, 2025-02-01
+        implementation        : 2025-02-01, 2025-07-01
+        qa                    : 2025-07-01, 2025-08-01
+        wrapup                : 2025-01-01, 2025-12-01
+```

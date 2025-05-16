@@ -1,3 +1,11 @@
+# Fivetran DBT Test
+
+## Purpose
+Used to test data ingestion and transformation with fivetran and dbt core.
+
+## Example ERD
+Below is an example ERD using mermaid markdown syntax.
+
 ```mermaid
 %% ------ example erd ---------- %%
 erDiagram

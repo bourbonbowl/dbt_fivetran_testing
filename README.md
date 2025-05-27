@@ -30,10 +30,17 @@ erDiagram
         number column2
     }
 
+    transactions["Transactions"] {
+        string column0
+        number column1
+        number column2
+    }
+
     %% -------- relationships --------- %%
     
     users 1 to 0+ orders : places
     orders 1 to 1+ inventory : has
+    orders 1 to 1+ transactions : has
 ```
 
 # Project Overview

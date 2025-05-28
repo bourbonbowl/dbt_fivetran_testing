@@ -53,3 +53,9 @@ gantt
         qa                    : 2025-07-01, 2025-08-01
         wrapup                : 2025-01-01, 2025-12-01
 ```
+
+# Project
+| date          | status             | item         | notes 
+| :-            | :-                 | :-           | :-
+| 2025-01-05    | &check;            | ACB          | xdfsfdghhgdfjfgdgfdgdfgdf
+| 2025-01-07    |                    | XYZ          | ghghgfghfgfhgh
